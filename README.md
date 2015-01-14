@@ -6,18 +6,18 @@ The docker image helps you to run ino in docker to serve the purpose.
 
 ## Quickstart
 
-Use coopermaa/ino image in an alias to deal with ino:
+Save the alias setting below in ~/.profile or ~/.bashrc:
 
-    $ alias ino='docker run --privileged \
+    $ alias ino='sudo docker run --privileged \
       -v /dev/ttyS1:/dev/ttyS1 \
       -v $(pwd):/app \
       coopermaa/ino'
 
-Notes: You can save the alias setting in ~/.profile or ~/.bashrc
+Run "source ~/.profile" or "source ~/.bashrc" to make it take effect.
 
 Create a simple project and use blink as a project template which will create a simple sketch for LED blinking on pin 13:
 
-    $ mkdir blink
+    $ mkdir blink && cd blink
     $ ino init -t blink
 
 If you look at the contents of your blink directory, you should see a lib and a src directory. Within src, there will be a file called sketch.ino
