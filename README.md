@@ -20,7 +20,7 @@ Create a simple project and use blink as a project template which will create a 
     $ mkdir blink
     $ ino init -t blink
 
-If you look at the contents of your testproject directory, you should see a lib and a src directory. Within src, there will be a file called sketch.ino
+If you look at the contents of your blink directory, you should see a lib and a src directory. Within src, there will be a file called sketch.ino
 
 Let's build it and upload it:
 
