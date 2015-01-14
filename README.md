@@ -38,7 +38,7 @@ We have to specify this for our build steps as command-line switches (You have t
     $ ino build -m mega2560
     $ ino upload -m mega2560 -p /dev/ttyACM1
 
-See [official ino documentaio](http://inotool.org/quickstart) for more information.
+See [official ino documentation](http://inotool.org/quickstart) for more information.
 
 ## For boot2docker user on Windows
 
