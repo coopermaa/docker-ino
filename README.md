@@ -27,7 +27,7 @@ Let's build it and upload it:
     $ ino build
     $ ino upload -p /dev/ttyS1
 
-When the job is done, Arduino flashes with its buil-in LED on pin 13.
+When the job is done, Arduino flashes with its built-in LED on pin 13.
 
 ## Tweaking parameters
 
