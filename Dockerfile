@@ -1,4 +1,4 @@
-FROM dockerfile/python
+FROM python:2.7
 MAINTAINER coopermaa77@gmail.com
 
 # arduino for Arduino IDE distribution
